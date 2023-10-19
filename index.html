@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Save the Children</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="childrenlogo.webp" alt="children" >  
+            <h1>Save the Children</h1> 
+        </div>
+
+        <nav>
+            <div class="container">
+                <h1>Save the Children</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+<main>
+    <section id="home">
+        <div class="container">
+            <img src="children.jpg" alt="display picture of children">
+            <h2>Welcome to Save the Children</h2>
+        <p>Empowering children, transforming lives.</p>
+       
+        </div>
+
+    </section>
+    <section id="about" >
+        <div class="container">
+        <h2>About Us</h2>
+        <img src="child.avif"  class="image">
+        <p><b>Save the Children is</b> a non-profit organization dedicated to improving the lives of children around the world.<br>
+             With your support, we provide healthcare, education, and emergency relief to children in need.</p>
+    <p><br>Our mission is to inspire breakthroughs in the way the world treats children and to achieve immediate and lasting change in their lives. <br><br><b>Through our programs, we provide:</b></p>
+
+    <details open>
+        <summary>Quality Education:</summary>
+        We establish schools, provide educational resources, and promote education as a fundamental right for every child.
+    </details>
+    <details>
+        <summary>Essential Healthcare:</summary>
+        We ensure access to healthcare services, vaccinations, and nutrition, combating diseases and improving child health.
+    </details>
+    <details>
+        <summary>Emergency Response:</summary>
+        We respond swiftly during crises, offering life-saving assistance, clean water, shelter, and psychological support to affected children and families.
+    </details>
+    <details>
+        <summary>Advocacy and Awareness:</summary>
+        We advocate for children's rights, raise awareness about issues affecting children, and work with governments and communities to create positive change.
+    </details>
+</section>
+        </div>
+    </section>
+
+    <section id="programs">
+
+    <div class="container">
+        <h2>Our Programs</h2>
+        <ul>
+            <li><strong>Education:</strong> Providing access to quality education and educational resources.</li>
+            <li><strong>Healthcare:</strong> Ensuring access to essential healthcare services and medical assistance.</li>
+            <li><strong>Emergency Response:</strong> Rapid response during crises, offering relief and support to affected children and families.</li>
+        </ul>
+                <fieldset>
+                    <legend><h3>Our program progress</h3></legend>
+                    <dt><b>Education:</b> We have achieved 70% of our education program goal.</dt>
+                    <dd>
+                    <meter value="70" min="0" max="100">70%</meter>
+                </dd>
+                <dt><b>Healthcare:</b> We have achieved 80% of our healthcare program goal.</dt>
+                <dd>
+                    <meter value="80" min="0" max="100">80%</meter>
+                </dd>
+                <dt><b>Emergency Response:</b> We have achieved 90% of our emergency response program goal.</dt>
+                <dd>
+                    <meter value="90" min="0" max="100">90%</meter>
+                </dd>
+                </fieldset>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="donate">
+
+    <div class="container">
+        <h2>Donate</h2>
+        <img src="huuhed.jpg"  class="image">
+        <p>Your contribution can make a difference in the lives of children.</p>
+        <p>Your generous contribution can make a significant impact on the lives of children. 
+            Together, we can create a better future for them. <br><b>Click the button below to donate now.</b></p>
+        <button>Donate Now</button>
+        </div>
+    </section>
+
+    <section id="contact">
+
+    <div class="container">
+        
+        <h2>Contact Us</h2>
+
+        <p><strong>Email: </strong> savechildren@gmail.com<br>
+        <strong>Phone: </strong> </p>
+       
+        
+        <form action="contact_form_handler.php" method="post">
+            <fieldset>
+                <legend>Contact us</legend>
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message"><b>Message:</b></label><br><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Save the Children. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

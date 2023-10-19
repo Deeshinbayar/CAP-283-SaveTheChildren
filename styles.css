@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+   
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+#home img{
+    height: 300px;
+    border-radius: 50%;
+}
+#logo img{
+
+    width: 100px;
+    height: auto;
+    }
+    .image {
+        width: 300px; 
+        height: auto; 
+        float: left; 
+        margin-right: 20px; 
+        border-style: hidden;
+    }
+
+header {
+    background-color: #11bcf0;
+    color: #111111;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+details{
+    background-color: #b7ebeb;
+}
+summary{
+    background-color: #55bcc5;
+}
+meter{
+    width: 300px;
+    height: 40px;
+}
+header ul li{
+    text-align: end;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+section div ul li{
+    text-align: start;
+}
+
+section {
+    margin-bottom: 40px;
+    color:#0a0a0a;
+    height: 100vh;
+border: 1px solid grey;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+button {
+    background-color: #4caf50;
+    color: #0a0a0a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #11bcf0;
+    color: #111010;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#home {
+    background-image: url(sky.jpg);
+    background-repeat: round;
+
+
+    }
+    #about{
+    background-color: rgb(232, 240, 245);
+    }
+    #contact{
+    background-color: rgb(160, 211, 231);
+    }
+    #donate{
+        background-color: rgb(211, 240, 252);
+    }
+    #programs{
+        background-color:rgb(160, 211, 231);
+    }
+    #contact{
+        background-color: rgb(160, 211, 231);
+    }
